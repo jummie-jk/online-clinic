@@ -1,11 +1,15 @@
 
 import './App.css';
+import { NavBar } from './components/navbar/navbar';
+import { Home } from './pages/home/home';
 
 function App() {
   return (
     <div>
-      
-      My Online Clinic</div>
+
+    <NavBar/>
+    <Home/>
+      </div>
   );
 }
 
